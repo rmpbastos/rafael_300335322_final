@@ -7,7 +7,7 @@ import BookCard from './BookCard';
 
 const BookList = () => {
     const [books, setBooks] = useState([]);
-    https://rafael-300335322-api.vercel.app/
+    https://rafael-300335322-api.vercel.app
     useEffect(() => {
         axios.get('https://rafael-300335322-api.vercel.app')
             .then(res => setBooks(res.data))
