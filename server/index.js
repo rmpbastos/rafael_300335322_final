@@ -24,8 +24,8 @@ app.use(express.json());
 app.use(express.json())
 
 // MongoDB connection
-// const MONGO_URI = 'mongodb+srv://finaluser:DZNSGYJNFP6gBeLl@cluster0.7rlxnxb.mongodb.net/BookDB?retryWrites=true&w=majority&appName=Cluster0'
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = 'mongodb+srv://finaluser:DZNSGYJNFP6gBeLl@cluster0.7rlxnxb.mongodb.net/BookDB?retryWrites=true&w=majority&appName=Cluster0'
+
 
 mongoose.connect(MONGO_URI);
 const connection = mongoose.connection;
